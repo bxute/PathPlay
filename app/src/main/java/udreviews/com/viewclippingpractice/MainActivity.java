@@ -2,13 +2,10 @@ package udreviews.com.viewclippingpractice;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.View;
 import android.widget.SeekBar;
 
 public class MainActivity extends AppCompatActivity {
-
-    private MasterPolygon masterPolygon;
-
+    private CustomPolygon masterPolygon;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     tools:context="udreviews.com.viewclippingpractice.MainActivity">
 
-    <udreviews.com.viewclippingpractice.MasterPolygon
+    <udreviews.com.viewclippingpractice.CustomPolygon
         android:layout_width="match_parent"
         android:id="@+id/masterPolygon"
         android:layout_height="360dp" />
