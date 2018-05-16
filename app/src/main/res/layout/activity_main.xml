@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="udreviews.com.viewclippingpractice.MainActivity">
+
+    <udreviews.com.viewclippingpractice.MasterPolygon
+        android:layout_width="match_parent"
+        android:id="@+id/masterPolygon"
+        android:layout_height="360dp" />
+
+    <TextView
+        android:id="@+id/sides_label"
+        android:text="SIDES"
+        android:layout_marginStart="16dp"
+        android:textColor="#4b4b4b"
+        android:textSize="12sp"
+        android:layout_below="@+id/masterPolygon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <SeekBar
+        android:layout_below="@+id/sides_label"
+        android:id="@+id/sides"
+        android:layout_margin="8dp"
+        android:max="16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/corner_label"
+        android:text="CORNER ROUNDING"
+        android:layout_marginStart="16dp"
+        android:textColor="#4b4b4b"
+        android:textSize="12sp"
+        android:layout_below="@+id/sides"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <SeekBar
+        android:layout_below="@+id/corner_label"
+        android:id="@+id/corner_radius"
+        android:layout_margin="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/progress_label"
+        android:text="PROGRESS"
+        android:layout_marginStart="16dp"
+        android:textColor="#4b4b4b"
+        android:textSize="12sp"
+        android:layout_below="@+id/corner_radius"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <SeekBar
+        android:layout_below="@+id/progress_label"
+        android:id="@+id/progress_seekbar"
+        android:layout_margin="8dp"
+        android:max="100"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/radius_label"
+        android:text="SHAPE RADIUS"
+        android:layout_marginStart="16dp"
+        android:textColor="#4b4b4b"
+        android:textSize="12sp"
+        android:layout_below="@+id/progress_seekbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <SeekBar
+        android:layout_below="@+id/radius_label"
+        android:id="@+id/radius_seekbar"
+        android:layout_margin="8dp"
+        android:max="16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+</RelativeLayout>
